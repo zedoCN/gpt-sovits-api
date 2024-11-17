@@ -163,7 +163,6 @@ class GptSoVitsApi : AutoCloseable {
         }
     }
 
-
     private suspend fun checkResponse(response: HttpResponse) {
         if (response.status != HttpStatusCode.OK) {
             val errorMessage = response.body<JsonObject>().get("message")?.toString() ?: "未知错误"

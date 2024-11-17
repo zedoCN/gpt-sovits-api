@@ -1,2 +1,2 @@
-rootProject.name = "gptSoVitsApi"
+rootProject.name = "gpt-sovits-api"
 
